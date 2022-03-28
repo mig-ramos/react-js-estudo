@@ -1,5 +1,5 @@
 import './App.css';
-
+import HelloWorld from './components/HelloWorld';
 
 
 function App() {
@@ -17,6 +17,7 @@ const url = 'https://via.placeholder.com/150'
       <p>Olá, {name}</p>
       <p>Soma {sum(4,5)}</p>
       <img src={url} alt="Minha Imagem" />
+      <HelloWorld />
     </div>
   );
 }
